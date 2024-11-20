@@ -13,6 +13,6 @@ commands:
     permission: saveitems.cmd
 permissions:
   saveitems.cmd:
-    default: true
+    default: op
   takeitems.cmd:
-    default: true
+    default: op

@@ -5,14 +5,9 @@ api: 5.0.0
 author: FurryJaki1992
 
 commands:
-  saveitems:
-    description: 'Lưu trữ vật phẩm vào kho'
-    permission: saveitems.cmd
-  takeitems:
-    description: 'Lấy vật phẩm trong kho'
-    permission: saveitems.cmd
+  savesitem:
+    description: 'Lưu trữ vật phẩm trong kho'
+    permission: savesitem.cmd
 permissions:
-  saveitems.cmd:
-    default: op
-  takeitems.cmd:
+  savesitem.cmd:
     default: op
